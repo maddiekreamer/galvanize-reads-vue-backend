@@ -1,0 +1,19 @@
+{
+  "name": "galvanize-reads-vue-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maddiekreamer/galvanize-reads-vue-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maddiekreamer/galvanize-reads-vue-backend/issues"
+  },
+  "homepage": "https://github.com/maddiekreamer/galvanize-reads-vue-backend#readme"
+}
