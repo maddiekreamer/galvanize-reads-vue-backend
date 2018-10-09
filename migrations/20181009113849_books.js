@@ -4,11 +4,11 @@ exports.up = function(knex, Promise) {
         book.increments('id')
         book.string('title')
         book.string('genre')
-        book.string('desc')
+        book.text('desc')
         book.string('cover')
     });
 };
 
 exports.down = function(knex, Promise) {
-    return knex.schema.dropTableIfExists('books')
+    return knex.schema.dropTableIfExists('books_table')
 };

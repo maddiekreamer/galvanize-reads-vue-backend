@@ -4,11 +4,11 @@ exports.up = function(knex, Promise) {
         author.increments('id')
         author.string('firstName')
         author.string('lastName')
-        author.string('bio')
+        author.text('bio')
         author.string('portrait')
     });
 };
 
 exports.down = function(knex, Promise) {
-    return knex.schema.dropTableIfExists('authors')
+    return knex.schema.dropTableIfExists('authors_table')
 };
