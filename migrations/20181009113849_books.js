@@ -4,8 +4,8 @@ exports.up = function(knex, Promise) {
         book.increments('id')
         book.string('title')
         book.string('genre')
-        book.string('description')
-        book.string('coverURL')
+        book.string('desc')
+        book.string('cover')
     });
 };
 
