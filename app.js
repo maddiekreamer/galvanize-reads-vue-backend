@@ -6,13 +6,13 @@ const cors = require("cors")
 
 app.use(cors())
 
-app.get("/", (request, response, next) => {
+app.get("/books", (request, response) => {
     queries.getBooks().then(result => response.json({
         result
     }))
 });
 
-app.get("/", (request, response, next) => {
+app.get("/authors", (request, response) => {
     queries.getAuthors().then(result => response.json({
         result
     }))
